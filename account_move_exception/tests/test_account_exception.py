@@ -21,7 +21,7 @@ class TestAccountException(TransactionCase):
                 (
                     "user_type_id",
                     "=",
-                    self.env.ref("account.data_account_type_receivable").id,
+                    self.env.ref("account.data_account_type_revenue").id,
                 )
             ],
             limit=1,
@@ -36,42 +36,36 @@ class TestAccountException(TransactionCase):
         self.am_vals = {
             "type": "out_invoice",
             "partner_id": self.partner_id.id,
-            "line_ids": [
-                (
-                    0,
-                    0,
-                    {
-                        "name": self.product_id_1.name,
-                        "product_id": self.product_id_1.id,
-                        "quantity": 5.0,
-                        "price_unit": 500.0,
-                        "account_id": self.account_receivable.id,
-                    },
-                ),
-                (
-                    0,
-                    0,
-                    {
-                        "name": self.product_id_2.name,
-                        "product_id": self.product_id_2.id,
-                        "quantity": 5.0,
-                        "price_unit": 250.0,
-                        "account_id": self.account_receivable.id,
-                    },
-                ),
-            ],
         }
+
+        self.am = self.AccountMove.create(self.am_vals.copy())
+        self.env["account.move.line"].create(
+            {
+                "move_id": self.am.id,
+                "product_id": self.product_id_1.id,
+                "quantity": 1,
+                "account_id": self.account_receivable.id,
+                "name": "Test product",
+                # "price_unit": 20,
+            }
+        )
+
+        self.am._onchange_invoice_line_ids()
+
+        self.am2 = self.AccountMove.create(self.am_vals.copy())
+        self.am2._onchange_invoice_line_ids()
+
+        self.am3New = self.AccountMove.new(self.am_vals.copy())
+        self.am3New._onchange_invoice_line_ids()
 
     def test_account_move_exception(self):
         self.exception_noemail.active = True
         self.exception_noemail.next_state = False
         self.exception_qtycheck.active = True
         self.partner_id.email = False
-        self.am = self.AccountMove.create(self.am_vals.copy())
 
         self.assertEqual(self.am.state, "draft")
         # test all draft am
-        self.am2 = self.AccountMove.create(self.am_vals.copy())
 
         self.AccountMove.test_all_draft_moves()
         self.assertEqual(self.am2.state, "draft")
@@ -85,7 +79,7 @@ class TestAccountException(TransactionCase):
         field_onchange = self.AccountMove._onchange_spec()
         self.assertEqual(field_onchange.get("line_ids"), "1")
         self.env.cache.invalidate()
-        self.am3New = self.AccountMove.new(self.am_vals.copy())
+
         self.am3New.ignore_exception = True
         self.am3New.state = "posted"
         self.am3New.onchange_ignore_exception()
