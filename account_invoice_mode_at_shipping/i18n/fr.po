@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ametras-xsolutions\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/account_invoice_mode_at_shipping/i18n/account_invoice_mode_at_shipping.pot\n"
+"X-Crowdin-File-ID: 2710\n"
+"Language: fr_FR\n"
+"PO-Revision-Date: 2022-08-06 21:37\n"
+
+#. module: account_invoice_mode_at_shipping
+#: model:ir.model.fields.selection,name:account_invoice_mode_at_shipping.selection__res_partner__invoicing_mode__at_shipping
+msgid "At Shipping"
+msgstr ""
+
+#. module: account_invoice_mode_at_shipping
+#: model:ir.model,name:account_invoice_mode_at_shipping.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: account_invoice_mode_at_shipping
+#: model:ir.model.fields,field_description:account_invoice_mode_at_shipping.field_res_partner__invoicing_mode
+#: model:ir.model.fields,field_description:account_invoice_mode_at_shipping.field_res_users__invoicing_mode
+msgid "Invoicing Mode"
+msgstr ""
+
+#. module: account_invoice_mode_at_shipping
+#: code:addons/account_invoice_mode_at_shipping/models/stock_picking.py:0
+#, python-format
+msgid "Nothing to invoice."
+msgstr ""
+
+#. module: account_invoice_mode_at_shipping
+#: model:ir.model,name:account_invoice_mode_at_shipping.model_stock_move
+msgid "Stock Move"
+msgstr "Mouvement du stock"
+
+#. module: account_invoice_mode_at_shipping
+#: model:ir.model,name:account_invoice_mode_at_shipping.model_stock_picking
+msgid "Transfer"
+msgstr ""
+
