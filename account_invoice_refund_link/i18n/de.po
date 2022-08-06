@@ -1,23 +1,20 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# * account_invoice_refund_link
-#
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-11 02:41+0000\n"
-"PO-Revision-Date: 2019-07-17 12:43+0000\n"
-"Last-Translator: Maria Sparenberg <maria.sparenberg@gmx.net>\n"
-"Language-Team: German (https://www.transifex.com/oca/teams/23907/de/)\n"
-"Language: de\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/account_invoice_refund_link/i18n/account_invoice_refund_link.pot\n"
+"X-Crowdin-File-ID: 2748\n"
+"Language: de_DE\n"
+"PO-Revision-Date: 2022-08-06 21:37\n"
 
 #. module: account_invoice_refund_link
 #: model:ir.model,name:account_invoice_refund_link.model_account_move_reversal
@@ -26,19 +23,18 @@ msgstr ""
 
 #. module: account_invoice_refund_link
 #: model_terms:ir.ui.view,arch_db:account_invoice_refund_link.view_customer_account_invoice_add_refunds_details_form
-#, fuzzy
 msgid "Invoice reference"
-msgstr "Rechnungsposition"
+msgstr ""
 
 #. module: account_invoice_refund_link
 #: model:ir.model,name:account_invoice_refund_link.model_account_move
 msgid "Journal Entries"
-msgstr ""
+msgstr "Buchungseinträge"
 
 #. module: account_invoice_refund_link
 #: model:ir.model,name:account_invoice_refund_link.model_account_move_line
 msgid "Journal Item"
-msgstr ""
+msgstr "Journal Teil"
 
 #. module: account_invoice_refund_link
 #: model:ir.model.fields,field_description:account_invoice_refund_link.field_account_move_line__origin_line_id
@@ -48,21 +44,17 @@ msgstr "Ursprüngliche Rechnungsposition"
 #. module: account_invoice_refund_link
 #: model:ir.model.fields,help:account_invoice_refund_link.field_account_move_line__origin_line_id
 msgid "Original invoice line to which this refund invoice line is referred to"
-msgstr ""
-"Ursprüngliche Rechnungsposition, auf die sich diese Erstattungsposition "
-"bezieht"
+msgstr "Ursprüngliche Rechnungsposition, auf die sich diese Erstattungsposition bezieht"
 
 #. module: account_invoice_refund_link
 #: model:ir.model.fields,field_description:account_invoice_refund_link.field_account_move__refund_invoice_ids
-#, fuzzy
 msgid "Refund Invoices"
-msgstr "Gutschriften"
+msgstr ""
 
 #. module: account_invoice_refund_link
 #: model:ir.model.fields,field_description:account_invoice_refund_link.field_account_move_line__refund_line_ids
-#, fuzzy
 msgid "Refund invoice lines"
-msgstr "Gutschriftposition"
+msgstr ""
 
 #. module: account_invoice_refund_link
 #: model:ir.model.fields,help:account_invoice_refund_link.field_account_move_line__refund_line_ids
@@ -77,33 +69,10 @@ msgstr "Gutschriften"
 #. module: account_invoice_refund_link
 #: model_terms:ir.ui.view,arch_db:account_invoice_refund_link.view_customer_account_invoice_add_refunds_details_form
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 #. module: account_invoice_refund_link
 #: model_terms:ir.ui.view,arch_db:account_invoice_refund_link.view_customer_account_invoice_add_refunds_details_form
 msgid "Total"
-msgstr "Total"
+msgstr "Gesamt"
 
-#~ msgid "Bill date"
-#~ msgstr "Rechnungstellungsdatum"
-
-#~ msgid "Customer"
-#~ msgstr "Kunde"
-
-#~ msgid "Invoice"
-#~ msgstr "Rechnung"
-
-#~ msgid "Number"
-#~ msgstr "Nummer"
-
-#~ msgid "Reference"
-#~ msgstr "Referenz"
-
-#~ msgid "Refund reason"
-#~ msgstr "Erstattungsgrund"
-
-#~ msgid "Source"
-#~ msgstr "Herkunft"
-
-#~ msgid "Supplier"
-#~ msgstr "Lieferant"
