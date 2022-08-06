@@ -1,23 +1,23 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# 	* stock_picking_invoicing
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0+e\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-09 12:43+0000\n"
-"PO-Revision-Date: 2019-03-15 10:32+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
-"Language: \n"
+"Last-Translator: \n"
+"Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/stock_picking_invoicing/i18n/stock_picking_invoicing.pot\n"
+"X-Crowdin-File-ID: 2846\n"
+"Language: fr_FR\n"
+"PO-Revision-Date: 2022-08-06 21:38\n"
 
 #. module: stock_picking_invoicing
-#: code:addons/stock_picking_invoicing/wizards/stock_invoice_onshipping.py:494
+#: code:addons/stock_picking_invoicing/wizards/stock_invoice_onshipping.py:0
 #, python-format
 msgid "All pickings are not related to your company!"
 msgstr "Les pickings ne sont pas liés à la même société!"
@@ -35,10 +35,10 @@ msgstr ""
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_stock_invoice_onshipping
 msgid "Create"
-msgstr "Créer"
+msgstr ""
 
 #. module: stock_picking_invoicing
-#: selection:stock.invoice.onshipping,journal_type:0
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_onshipping__journal_type__sale
 msgid "Create Customer Invoice"
 msgstr "Créer une facture client"
 
@@ -50,10 +50,10 @@ msgstr "Créer factures brouillons"
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_picking_form
 msgid "Create Invoice"
-msgstr "Créer une facture"
+msgstr ""
 
 #. module: stock_picking_invoicing
-#: selection:stock.invoice.onshipping,journal_type:0
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_onshipping__journal_type__purchase
 msgid "Create Supplier Invoice"
 msgstr "Créer facture fournisseur"
 
@@ -76,7 +76,7 @@ msgstr "Créé le"
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__display_name
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_state_mixin__display_name
 msgid "Display Name"
-msgstr "Nom à afficher"
+msgstr "Nom d'affichage"
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__group
@@ -85,36 +85,25 @@ msgstr "Groupe"
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,help:stock_picking_invoicing.field_stock_invoice_onshipping__group
-msgid ""
-"Group pickings/moves to create invoice(s):\n"
+msgid "Group pickings/moves to create invoice(s):\n"
 "Picking: One invoice per picking;\n"
 "Partner: One invoice for each picking's partner;\n"
-"Partner/Product: One invoice per picking's partner and group product into a "
-"single invoice line."
-msgstr ""
-"Grouper les pickings/mouvements à facturer:\n"
+"Partner/Product: One invoice per picking's partner and group product into a single invoice line."
+msgstr "Grouper les pickings/mouvements à facturer:\n"
 "Picking: Une facture par picking;\n"
 "Partenaire: Une facture par partenaire du picking;\n"
-"Partenaire/Article: Une facture par partenaire du picking et grouper les "
-"articles similaires dans une seule ligne de facture."
+"Partenaire/Article: Une facture par partenaire du picking et grouper les articles similaires dans une seule ligne de facture."
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__id
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_state_mixin__id
 msgid "ID"
-msgstr "ID"
-
-#. module: stock_picking_invoicing
-#: model:ir.model,name:stock_picking_invoicing.model_account_invoice
-msgid "Invoice"
-msgstr "Facture"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__invoice_date
-#, fuzzy
-#| msgid "Invoice date"
 msgid "Invoice Date"
-msgstr "Date de facturation"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_state_mixin__invoice_state
@@ -124,8 +113,9 @@ msgid "Invoice Status"
 msgstr "État de la facture"
 
 #. module: stock_picking_invoicing
-#: selection:stock.invoice.state.mixin,invoice_state:0
-#: selection:stock.move,invoice_state:0 selection:stock.picking,invoice_state:0
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_state_mixin__invoice_state__invoiced
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_move__invoice_state__invoiced
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_picking__invoice_state__invoiced
 msgid "Invoiced"
 msgstr "Facturé"
 
@@ -133,33 +123,35 @@ msgstr "Facturé"
 #: model:ir.model.fields,help:stock_picking_invoicing.field_stock_invoice_state_mixin__invoice_state
 #: model:ir.model.fields,help:stock_picking_invoicing.field_stock_move__invoice_state
 #: model:ir.model.fields,help:stock_picking_invoicing.field_stock_picking__invoice_state
-msgid ""
-"Invoiced: an invoice already exists\n"
+msgid "Invoiced: an invoice already exists\n"
 "To Be Invoiced: need to be invoiced\n"
 "Not Applicable: no invoice to create"
-msgstr ""
-"Facturé: Une facture existe déjà\n"
+msgstr "Facturé: Une facture existe déjà\n"
 "À facturer: facturation à faire\n"
 "Non applicable: Pas de facturer à créer"
 
 #. module: stock_picking_invoicing
+#: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_return_picking__invoice_state
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_move_picking_form
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_picking_form
 msgid "Invoicing"
 msgstr "Facturation"
 
 #. module: stock_picking_invoicing
+#: model:ir.model,name:stock_picking_invoicing.model_account_move
+msgid "Journal Entries"
+msgstr "Entrées de journal"
+
+#. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__journal_type
-#, fuzzy
-#| msgid "Journal type"
 msgid "Journal Type"
-msgstr "Type de journal"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping____last_update
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_state_mixin____last_update
 msgid "Last Modified on"
-msgstr "Dernière Modification le"
+msgstr "Dernière modification le"
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__write_uid
@@ -172,57 +164,62 @@ msgid "Last Updated on"
 msgstr "Dernière mise à jour le"
 
 #. module: stock_picking_invoicing
-#: code:addons/stock_picking_invoicing/wizards/stock_invoice_onshipping.py:192
+#: code:addons/stock_picking_invoicing/wizards/stock_invoice_onshipping.py:0
 #, python-format
 msgid "No invoice created!"
 msgstr "Pas de facture créée!"
 
 #. module: stock_picking_invoicing
-#: selection:stock.invoice.state.mixin,invoice_state:0
-#: selection:stock.move,invoice_state:0 selection:stock.picking,invoice_state:0
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_return_picking__invoice_state__none
+msgid "No invoicing"
+msgstr ""
+
+#. module: stock_picking_invoicing
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_state_mixin__invoice_state__none
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_move__invoice_state__none
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_picking__invoice_state__none
 msgid "Not Applicable"
 msgstr "Non applicable"
 
 #. module: stock_picking_invoicing
-#: selection:stock.invoice.onshipping,group:0
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_onshipping__group__partner
 msgid "Partner"
 msgstr "Partenaire"
 
 #. module: stock_picking_invoicing
-#: selection:stock.invoice.onshipping,group:0
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_onshipping__group__partner_product
 msgid "Partner/Product"
 msgstr "Partenaire/Article"
 
 #. module: stock_picking_invoicing
-#: selection:stock.invoice.onshipping,group:0
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_onshipping__group__picking
 msgid "Picking"
-msgstr "Picking"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model:ir.model,name:stock_picking_invoicing.model_stock_picking_type
-#, fuzzy
-#| msgid "Picking"
 msgid "Picking Type"
-msgstr "Picking"
+msgstr "Type de Picking"
 
 #. module: stock_picking_invoicing
 #: model:ir.actions.act_window,name:stock_picking_invoicing.2binvoiced_action_picking_dashboard
-#, fuzzy
 msgid "Picking to Invoice"
-msgstr "Marquer comme à facturer"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__purchase_journal
-#, fuzzy
-#| msgid "Purchase journal"
 msgid "Purchase Journal"
-msgstr "Journal d'achat"
+msgstr ""
+
+#. module: stock_picking_invoicing
+#: model:ir.model,name:stock_picking_invoicing.model_stock_return_picking
+msgid "Return Picking"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__sale_journal
-#, fuzzy
 msgid "Sale Journal"
-msgstr "Journal d'achat"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_picking_form
@@ -231,21 +228,18 @@ msgstr "Marquer comme à facturer"
 
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_picking_invoicing_internal_search
-#, fuzzy
 msgid "Shipments to Invoice"
-msgstr "Marquer comme à facturer"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__show_purchase_journal
-#, fuzzy
 msgid "Show Purchase Journal"
-msgstr "Journal d'achat"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields,field_description:stock_picking_invoicing.field_stock_invoice_onshipping__show_sale_journal
-#, fuzzy
 msgid "Show Sale Journal"
-msgstr "Journal d'achat"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model:ir.model,name:stock_picking_invoicing.model_stock_invoice_onshipping
@@ -254,33 +248,35 @@ msgstr "Facturation livraison"
 
 #. module: stock_picking_invoicing
 #: model:ir.model,name:stock_picking_invoicing.model_stock_invoice_state_mixin
-#, fuzzy
-#| msgid "Stock Invoice Onshipping"
 msgid "Stock Invoice State Mixin"
-msgstr "Facturation livraison"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model:ir.model,name:stock_picking_invoicing.model_stock_move
 msgid "Stock Move"
-msgstr "Mouvement de stock"
+msgstr "Mouvement du stock"
 
 #. module: stock_picking_invoicing
-#: selection:stock.invoice.state.mixin,invoice_state:0
-#: selection:stock.move,invoice_state:0 selection:stock.picking,invoice_state:0
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_state_mixin__invoice_state__2binvoiced
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_move__invoice_state__2binvoiced
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_picking__invoice_state__2binvoiced
 msgid "To Be Invoiced"
 msgstr "À facturer"
 
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.stock_picking_type_kanban
-#, fuzzy
-#| msgid "To Be Invoiced"
 msgid "To be Invoiced"
-msgstr "À facturer"
+msgstr ""
+
+#. module: stock_picking_invoicing
+#: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_return_picking__invoice_state__2binvoiced
+msgid "To be refunded/invoiced"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model:ir.model,name:stock_picking_invoicing.model_stock_picking
 msgid "Transfer"
-msgstr "Transfert"
+msgstr ""
 
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_picking_form
@@ -292,34 +288,3 @@ msgstr ""
 msgid "or"
 msgstr "ou"
 
-#~ msgid "Invoice Line"
-#~ msgstr "Ligne de facture"
-
-#~ msgid "Invoice ids"
-#~ msgstr "Factures"
-
-#~ msgid "Picking ids"
-#~ msgstr "Pickings"
-
-#~ msgid "Purchase refund journal"
-#~ msgstr "Journal note de crédits d'achat"
-
-#, fuzzy
-#~ msgid "Sale refund journal"
-#~ msgstr "Journal note de crédits d'achat"
-
-#, fuzzy
-#~ msgid "Show Refund Purchase Journal"
-#~ msgstr "Journal d'achat"
-
-#~ msgid "Stock moves"
-#~ msgstr "Mouvements de stock"
-
-#~ msgid "Procurement"
-#~ msgstr "Approvisionnement"
-
-#~ msgid "Procurement Rule"
-#~ msgstr "Règle d'approvisionnement"
-
-#~ msgid "Pushed Flow"
-#~ msgstr "Flux poussés"
