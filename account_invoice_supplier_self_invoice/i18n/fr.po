@@ -1,23 +1,20 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# * account_invoice_supplier_self_invoice
-#
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2018
-# Quentin THEURET <odoo@kerpeo.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-03 01:13+0000\n"
-"PO-Revision-Date: 2018-02-03 01:13+0000\n"
-"Last-Translator: Quentin THEURET <odoo@kerpeo.com>, 2018\n"
-"Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
-"Language: fr\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/account_invoice_supplier_self_invoice/i18n/account_invoice_supplier_self_invoice.pot\n"
+"X-Crowdin-File-ID: 2794\n"
+"Language: fr_FR\n"
+"PO-Revision-Date: 2022-08-06 21:37\n"
 
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
@@ -37,7 +34,7 @@ msgstr "<strong>Description :</strong>"
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
 msgid "<strong>Due Date:</strong>"
-msgstr "<strong>Date d'échéance :</strong>"
+msgstr ""
 
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
@@ -67,7 +64,7 @@ msgstr "<strong>Sous-total</strong>"
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
 msgid "<strong>Total</strong>"
-msgstr "<strong>Total</strong>"
+msgstr "<strong>Totale</strong>"
 
 #. module: account_invoice_supplier_self_invoice
 #: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_account_move__can_self_invoice
@@ -79,12 +76,12 @@ msgstr "Approuve sa propre facture"
 #. module: account_invoice_supplier_self_invoice
 #: model:ir.model,name:account_invoice_supplier_self_invoice.model_res_partner
 msgid "Contact"
-msgstr "Contact"
+msgstr ""
 
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
 msgid "Description"
-msgstr "Description"
+msgstr ""
 
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
@@ -105,7 +102,7 @@ msgstr "Facture"
 #. module: account_invoice_supplier_self_invoice
 #: model:ir.model,name:account_invoice_supplier_self_invoice.model_account_move
 msgid "Journal Entries"
-msgstr ""
+msgstr "Entrées de journal"
 
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
@@ -115,7 +112,7 @@ msgstr ""
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
 msgid "PRO-FORMA"
-msgstr "PRO-FORMA"
+msgstr ""
 
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
@@ -141,9 +138,8 @@ msgstr "Numéro de factures propres"
 #. module: account_invoice_supplier_self_invoice
 #: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_res_partner__self_invoice_report_footer
 #: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_res_users__self_invoice_report_footer
-#, fuzzy
 msgid "Self invoice footer"
-msgstr "Numéro de factures propres"
+msgstr ""
 
 #. module: account_invoice_supplier_self_invoice
 #: model:ir.model.fields,field_description:account_invoice_supplier_self_invoice.field_res_partner__self_invoice_sequence_id
@@ -164,7 +160,7 @@ msgstr "Indiquer la facture propre"
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
 msgid "Source Document"
-msgstr "Document source"
+msgstr ""
 
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
@@ -179,7 +175,7 @@ msgstr "Taxe non comprise dans le prix"
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
 msgid "Taxes"
-msgstr "Taxes"
+msgstr ""
 
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
@@ -201,35 +197,10 @@ msgstr ""
 #: model:ir.model.fields,help:account_invoice_supplier_self_invoice.field_res_partner__self_invoice
 #: model:ir.model.fields,help:account_invoice_supplier_self_invoice.field_res_users__self_invoice
 msgid "When checked, all invoices will generate a self-invoice on validation"
-msgstr ""
-"Quand elle est cochée, toutes les factures vont générer une facture propre à "
-"la validation"
+msgstr "Quand elle est cochée, toutes les factures vont générer une facture propre à la validation"
 
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
 msgid "on"
 msgstr ""
 
-#~ msgid "&amp;bull;"
-#~ msgstr "&amp;bull;"
-
-#~ msgid "Amount"
-#~ msgstr "Montant"
-
-#~ msgid "Base"
-#~ msgstr "Base"
-
-#~ msgid "Email:"
-#~ msgstr "Courriel :"
-
-#~ msgid "Page:"
-#~ msgstr "Page :"
-
-#~ msgid "Phone:"
-#~ msgstr "Téléphone :"
-
-#~ msgid "Tax"
-#~ msgstr "Taxe"
-
-#~ msgid "Website:"
-#~ msgstr "Site internet :"
