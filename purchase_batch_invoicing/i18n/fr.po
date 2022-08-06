@@ -1,23 +1,20 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# * purchase_batch_invoicing
-#
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 9.0c\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-02 02:43+0000\n"
-"PO-Revision-Date: 2020-02-19 18:13+0000\n"
-"Last-Translator: Martronic SA <info@martronic.ch>\n"
-"Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
-"Language: fr\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.10\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/purchase_batch_invoicing/i18n/purchase_batch_invoicing.pot\n"
+"X-Crowdin-File-ID: 2834\n"
+"Language: fr_FR\n"
+"PO-Revision-Date: 2022-08-06 21:38\n"
 
 #. module: purchase_batch_invoicing
 #: model_terms:ir.ui.view,arch_db:purchase_batch_invoicing.wizard_purchase_batch_invoicing_view
@@ -47,7 +44,7 @@ msgstr "Créé le"
 #. module: purchase_batch_invoicing
 #: model:ir.model.fields,field_description:purchase_batch_invoicing.field_purchase_batch_invoicing__display_name
 msgid "Display Name"
-msgstr "Afficher le nom"
+msgstr "Nom d'affichage"
 
 #. module: purchase_batch_invoicing
 #: model:ir.model.fields,help:purchase_batch_invoicing.field_purchase_batch_invoicing__exclude_zero_qty
@@ -67,7 +64,7 @@ msgstr "Regroupement"
 #. module: purchase_batch_invoicing
 #: model:ir.model.fields,field_description:purchase_batch_invoicing.field_purchase_batch_invoicing__id
 msgid "ID"
-msgstr "Identifiant"
+msgstr ""
 
 #. module: purchase_batch_invoicing
 #: model:ir.actions.server,name:purchase_batch_invoicing.cron_ir_actions_server
@@ -79,7 +76,7 @@ msgstr "Facturer toutes les commandes fournisseurs en attente"
 #. module: purchase_batch_invoicing
 #: model:ir.model,name:purchase_batch_invoicing.model_account_move
 msgid "Journal Entries"
-msgstr ""
+msgstr "Entrées de journal"
 
 #. module: purchase_batch_invoicing
 #: model:ir.model.fields,field_description:purchase_batch_invoicing.field_purchase_batch_invoicing____last_update
@@ -126,10 +123,5 @@ msgstr "Commandes d'achat"
 #. module: purchase_batch_invoicing
 #: model:ir.model.fields.selection,name:purchase_batch_invoicing.selection__purchase_batch_invoicing__grouping__partner_id
 msgid "Vendor"
-msgstr "Fournisseur"
+msgstr ""
 
-#~ msgid "Create Invoice"
-#~ msgstr "Créer les factures"
-
-#~ msgid "Generated Invoices"
-#~ msgstr "Factures générées"
