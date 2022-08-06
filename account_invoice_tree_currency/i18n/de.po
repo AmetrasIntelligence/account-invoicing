@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ametras-xsolutions\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/account_invoice_tree_currency/i18n/account_invoice_tree_currency.pot\n"
+"X-Crowdin-File-ID: 2808\n"
+"Language: de_DE\n"
+"PO-Revision-Date: 2022-08-06 21:38\n"
+
+#. module: account_invoice_tree_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
+msgid "Amount Due"
+msgstr ""
+
+#. module: account_invoice_tree_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
+msgid "Amount Due (Currency)"
+msgstr ""
+
+#. module: account_invoice_tree_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
+msgid "Tax (Currency)"
+msgstr ""
+
+#. module: account_invoice_tree_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
+msgid "Tax Excluded (Currency)"
+msgstr ""
+
+#. module: account_invoice_tree_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
+msgid "Total"
+msgstr "Gesamt"
+
+#. module: account_invoice_tree_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_tree_currency.view_invoice_tree
+msgid "Total (Currency)"
+msgstr ""
+
