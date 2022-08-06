@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# 	* account_invoice_date_due
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-06-12 13:19+0000\n"
-"Last-Translator: Maria Sparenberg <maria.sparenberg@gmx.net>\n"
-"Language-Team: none\n"
-"Language: de\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/account_invoice_date_due/i18n/account_invoice_date_due.pot\n"
+"X-Crowdin-File-ID: 2698\n"
+"Language: de_DE\n"
+"PO-Revision-Date: 2022-08-06 21:37\n"
 
 #. module: account_invoice_date_due
 #: model:res.groups,name:account_invoice_date_due.allow_to_change_due_date
@@ -24,7 +24,7 @@ msgstr "Fälligkeitsdatum in Rechnungen ändern"
 #. module: account_invoice_date_due
 #: model_terms:ir.ui.view,arch_db:account_invoice_date_due.view_move_form
 msgid "Due Date"
-msgstr ""
+msgstr "Fälligkeitsdatum"
 
 #. module: account_invoice_date_due
 #: model:ir.model.fields,field_description:account_invoice_date_due.field_account_move__invoice_date_due_payment_term
@@ -34,48 +34,5 @@ msgstr ""
 #. module: account_invoice_date_due
 #: model:ir.model,name:account_invoice_date_due.model_account_move
 msgid "Journal Entries"
-msgstr ""
+msgstr "Buchungseinträge"
 
-#~ msgid "Cancel"
-#~ msgstr "Abbrechen"
-
-#~ msgid "Change due date"
-#~ msgstr "Fälligkeitsdatum ändern"
-
-#~ msgid "Created by"
-#~ msgstr "Erstellt von"
-
-#~ msgid "Created on"
-#~ msgstr "Erstellt am"
-
-#~ msgid "Display Name"
-#~ msgstr "Anzeigename"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "Last Modified on"
-#~ msgstr "Zuletzt geändert am"
-
-#~ msgid "Last Updated by"
-#~ msgstr "Zuletzt aktualisiert von"
-
-#~ msgid "Last Updated on"
-#~ msgstr "Zuletzt aktualisiert am"
-
-#~ msgid "New Due Date"
-#~ msgstr "Neues Fälligkeitsdatum"
-
-#~ msgid "New date to be set to the invoice's due date."
-#~ msgstr ""
-#~ "Dies ist das Datum, das als neues Fälligkeitsdatum der Rechnung gesetzt "
-#~ "werden soll."
-
-#~ msgid "Set Due Date"
-#~ msgstr "Fälligkeitsdatum ändern"
-
-#~ msgid "Set a new due date on selected invoices."
-#~ msgstr "Neues Fälligkeitsdatum bei den ausgewählten Rechnungen setzen."
-
-#~ msgid "Wizard to set due date"
-#~ msgstr "Assistent für das Ändern des Fälligkeitsdatums"
