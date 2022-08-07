@@ -14,13 +14,13 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/account_invoice_transmit_method/i18n/account_invoice_transmit_method.pot\n"
 "X-Crowdin-File-ID: 2806\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:38\n"
+"PO-Revision-Date: 2022-08-07 00:04\n"
 
 #. module: account_invoice_transmit_method
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_account_move__transmit_method_code
 #: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__code
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #. module: account_invoice_transmit_method
 #: model:ir.model,name:account_invoice_transmit_method.model_res_partner
