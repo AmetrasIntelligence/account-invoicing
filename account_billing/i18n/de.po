@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/account_billing/i18n/account_billing.pot\n"
 "X-Crowdin-File-ID: 2684\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-07 00:03\n"
+"PO-Revision-Date: 2022-08-08 02:17\n"
 
 #. module: account_billing
 #: model:ir.model.fields,help:account_billing.field_account_billing__state
@@ -399,7 +399,7 @@ msgstr "Fehler beim Versenden der Nachrichten"
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__message_ids
 msgid "Messages"
-msgstr "Mitteilungen"
+msgstr "Nachrichten"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__name
