@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/account_global_discount/i18n/account_global_discount.pot\n"
 "X-Crowdin-File-ID: 2686\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-07 00:03\n"
+"PO-Revision-Date: 2022-08-11 12:08\n"
 
 #. module: account_global_discount
 #: model_terms:ir.ui.view,arch_db:account_global_discount.report_invoice_document
@@ -78,7 +78,7 @@ msgstr "Währung"
 #. module: account_global_discount
 #: model:ir.model.fields,field_description:account_global_discount.field_account_invoice_global_discount__discount_display
 msgid "Discount"
-msgstr ""
+msgstr "Rabatt"
 
 #. module: account_global_discount
 #: model:ir.model.fields,field_description:account_global_discount.field_account_invoice_global_discount__discount
