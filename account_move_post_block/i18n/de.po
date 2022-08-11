@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/account_move_post_block/i18n/account_move_post_block.pot\n"
 "X-Crowdin-File-ID: 2824\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:37\n"
+"PO-Revision-Date: 2022-08-11 10:14\n"
 
 #. module: account_move_post_block
 #: model:res.groups,comment:account_move_post_block.group_journal_entry_post_block
@@ -47,7 +47,7 @@ msgstr "Aktiv"
 #. module: account_move_post_block
 #: model_terms:ir.ui.view,arch_db:account_move_post_block.account_post_block_reason_form_view
 msgid "Archived"
-msgstr ""
+msgstr "Archiviert"
 
 #. module: account_move_post_block
 #: model_terms:ir.ui.view,arch_db:account_move_post_block.view_account_move_filter
