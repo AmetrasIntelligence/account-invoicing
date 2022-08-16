@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/account_invoice_supplier_self_invoice/i18n/account_invoice_supplier_self_invoice.pot\n"
 "X-Crowdin-File-ID: 2794\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-11 15:40\n"
+"PO-Revision-Date: 2022-08-16 09:47\n"
 
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
@@ -34,7 +34,7 @@ msgstr "<strong>Beschreibung:</strong>"
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
 msgid "<strong>Due Date:</strong>"
-msgstr ""
+msgstr "<strong>Fälligkeitsdatum:</strong>"
 
 #. module: account_invoice_supplier_self_invoice
 #: model_terms:ir.ui.view,arch_db:account_invoice_supplier_self_invoice.report_invoice_self_document
