@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/account_billing/i18n/account_billing.pot\n"
 "X-Crowdin-File-ID: 2684\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-08 02:17\n"
+"PO-Revision-Date: 2022-08-16 09:47\n"
 
 #. module: account_billing
 #: model:ir.model.fields,help:account_billing.field_account_billing__state
@@ -39,17 +39,17 @@ msgstr ""
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
 msgid "<span>Due Date</span>"
-msgstr ""
+msgstr "<span>Fälligkeitsdatum</span>"
 
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
 msgid "<span>Invoice Date</span>"
-msgstr ""
+msgstr "<span>Rechnungsdatum</span>"
 
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
 msgid "<span>Invoice Number</span>"
-msgstr ""
+msgstr "<span>Rechnungsnummer</span>"
 
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
@@ -59,12 +59,12 @@ msgstr ""
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
 msgid "<span>Source Document</span>"
-msgstr ""
+msgstr "<span>Referenzbeleg</span>"
 
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
 msgid "<span>Status</span>"
-msgstr ""
+msgstr "<span>Status</span>"
 
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
@@ -79,12 +79,12 @@ msgstr ""
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
 msgid "<strong>Currency:</strong>"
-msgstr ""
+msgstr "<strong>Währung:</strong>"
 
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.report_billing_document
 msgid "<strong>Due Date:</strong>"
-msgstr ""
+msgstr "<strong>Fälligkeitsdatum:</strong>"
 
 #. module: account_billing
 #: model:ir.model,name:account_billing.model_account_billing
@@ -99,7 +99,7 @@ msgstr "Aktion erforderlich"
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
 msgid "Are you sure to cancel this document?"
-msgstr ""
+msgstr "Möchten Sie dieses Dokument wirklich löschen?"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__message_attachment_count
@@ -109,7 +109,7 @@ msgstr "Anzahl der Anhänge"
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_move__billing_ids
 msgid "Biilings"
-msgstr ""
+msgstr "Rechnungen"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__billing_line_ids
@@ -265,7 +265,7 @@ msgstr "Entwurf"
 #: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
 #: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
 msgid "Draft Billing"
-msgstr ""
+msgstr "Rechnungsentwurf"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing_line__threshold_date
@@ -468,7 +468,7 @@ msgstr ""
 #: code:addons/account_billing/models/account_billing.py:0
 #, python-format
 msgid "Please select invoices with same currency"
-msgstr ""
+msgstr "Bitte wählen Sie Rechnungen mit derselben Währung aus"
 
 #. module: account_billing
 #: code:addons/account_billing/models/account_billing.py:0
@@ -494,14 +494,14 @@ msgstr ""
 #. module: account_billing
 #: model_terms:ir.ui.view,arch_db:account_billing.view_account_billing_form
 msgid "Set to Draft"
-msgstr ""
+msgstr "Setze auf Entwurf"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__state
 #: model:ir.model.fields,field_description:account_billing.field_account_billing_line__state
 #: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #. module: account_billing
 #: model:ir.model.fields,help:account_billing.field_account_billing_line__origin
@@ -559,12 +559,12 @@ msgstr "Bestätigen"
 #: model_terms:ir.ui.view,arch_db:account_billing.view_account_supplier_billing_tree
 #: model_terms:ir.ui.view,arch_db:account_billing.view_billing_search
 msgid "Vendor"
-msgstr ""
+msgstr "Lieferant"
 
 #. module: account_billing
 #: model:ir.model.fields.selection,name:account_billing.selection__account_billing__bill_type__in_invoice
 msgid "Vendor Bill"
-msgstr ""
+msgstr "Lieferantenrechnung"
 
 #. module: account_billing
 #: model:ir.model.fields,field_description:account_billing.field_account_billing__website_message_ids
