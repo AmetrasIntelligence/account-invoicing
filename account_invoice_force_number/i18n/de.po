@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/account_invoice_force_number/i18n/account_invoice_force_number.pot\n"
 "X-Crowdin-File-ID: 2704\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:37\n"
+"PO-Revision-Date: 2022-08-16 12:04\n"
 
 #. module: account_invoice_force_number
 #: model:res.groups,name:account_invoice_force_number.group_allow_invoice_force_number
@@ -41,5 +41,5 @@ msgstr "Buchungseinträge"
 #: code:addons/account_invoice_force_number/models/account_move.py:0
 #, python-format
 msgid "You cannot delete an invoice after it has been validated(and received a number). You can set it back to \"Draft\"state and modify its content, then re-confirm it."
-msgstr ""
+msgstr "Sie können eine Rechnung nicht löschen, nachdem sie bestätigt wurde (und eine Nummer erhalten haben). Sie können ihn auf den Status \"Entwurf\" zurücksetzen und dessen Inhalt ändern und ihn dann erneut bestätigen."
 
