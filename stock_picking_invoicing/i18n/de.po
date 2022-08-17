@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/stock_picking_invoicing/i18n/stock_picking_invoicing.pot\n"
 "X-Crowdin-File-ID: 2846\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:38\n"
+"PO-Revision-Date: 2022-08-17 16:08\n"
 
 #. module: stock_picking_invoicing
 #: code:addons/stock_picking_invoicing/wizards/stock_invoice_onshipping.py:0
@@ -50,7 +50,7 @@ msgstr ""
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_picking_form
 msgid "Create Invoice"
-msgstr ""
+msgstr "Rechnung erstellen"
 
 #. module: stock_picking_invoicing
 #: model:ir.model.fields.selection,name:stock_picking_invoicing.selection__stock_invoice_onshipping__journal_type__purchase
