@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/account_invoice_base_invoicing_mode/i18n/account_invoice_base_invoicing_mode.pot\n"
 "X-Crowdin-File-ID: 2690\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:37\n"
+"PO-Revision-Date: 2022-08-17 10:05\n"
 
 #. module: account_invoice_base_invoicing_mode
 #: model:ir.model,name:account_invoice_base_invoicing_mode.model_res_partner
@@ -70,5 +70,5 @@ msgstr "Kundenauftrag"
 #. module: account_invoice_base_invoicing_mode
 #: model:ir.model.fields.selection,name:account_invoice_base_invoicing_mode.selection__res_partner__invoicing_mode__standard
 msgid "Standard"
-msgstr ""
+msgstr "Standard"
 
