@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.account-invoicing] 13.0/account_invoice_pricelist/i18n/account_invoice_pricelist.pot\n"
 "X-Crowdin-File-ID: 2714\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:37\n"
+"PO-Revision-Date: 2022-08-25 09:21\n"
 
 #. module: account_invoice_pricelist
 #: model:ir.model,name:account_invoice_pricelist.model_account_move
@@ -30,7 +30,7 @@ msgstr "Journal Teil"
 #: model:ir.model.fields,field_description:account_invoice_pricelist.field_account_move__pricelist_id
 #: model_terms:ir.ui.view,arch_db:account_invoice_pricelist.account_invoice_filter_inherit_account_pricelist
 msgid "Pricelist"
-msgstr ""
+msgstr "Preisliste"
 
 #. module: account_invoice_pricelist
 #: code:addons/account_invoice_pricelist/models/account_move.py:0
