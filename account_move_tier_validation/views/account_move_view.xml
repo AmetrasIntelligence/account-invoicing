@@ -33,8 +33,8 @@
                      ('rejected', '=', True), ('review_ids', '=', [])]}"
                     style="margin-bottom:0px;"
                 >
-                    <p>
-                        <field name="to_validate_message" />
+                    <p><i class="fa fa-info-circle" />This Invoice needs to be
+                        validated.
                         <field name="can_review" invisible="1" />
                         <button
                             name="validate_tier"
@@ -60,9 +60,8 @@
                     attrs="{'invisible': ['|', '|', ('validated', '!=', True), ('state', 'not in', ['draft']), ('review_ids', '=', [])]}"
                     style="margin-bottom:0px;"
                 >
-                    <p>
-                        <field name="validated_message" />
-                    </p>
+                    <p><i class="fa fa-thumbs-up" /> Operation has been <b
+                        >validated</b>!</p>
                 </div>
                 <div
                     class="alert alert-danger"
@@ -70,9 +69,8 @@
                     attrs="{'invisible': ['|', '|', ('rejected', '!=', True), ('state', 'not in', ['draft']), ('review_ids', '=', [])]}"
                     style="margin-bottom:0px;"
                 >
-                    <p>
-                        <field name="rejected_message" />
-                    </p>
+                    <p><i class="fa fa-thumbs-down" /> Operation has been <b
+                        >rejected</b>.</p>
                 </div>
             </header>
             <xpath expr="//form/div[hasclass('oe_chatter')]" position="before">
