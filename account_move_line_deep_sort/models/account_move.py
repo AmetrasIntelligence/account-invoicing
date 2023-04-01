@@ -187,11 +187,11 @@ class AccountMove(models.Model):
             line.with_context(check_move_validity=False).write({"sequence": sequence})
 
     def failed_sort_message_info(self):
-        if self.type == "out_invoice":
+        if self.move_type == "out_invoice":
             return _("Customer Invoice")
-        elif self.type == "out_refund":
+        elif self.move_type == "out_refund":
             return _("Credit Note")
-        elif self.type == "in_invoice":
+        elif self.move_type == "in_invoice":
             return _("Vendor Bill")
         else:
             return _("Refund Bill")
@@ -200,17 +200,17 @@ class AccountMove(models.Model):
         for move in self:
             sort_param1 = (
                 move.cus_inv_line_order
-                if move.type in ("out_invoice", "out_refund")
+                if move.move_type in ("out_invoice", "out_refund")
                 else move.vend_bill_line_order
             )
             sort_param2 = (
                 move.cus_inv_line_order_2
-                if move.type in ("out_invoice", "out_refund")
+                if move.move_type in ("out_invoice", "out_refund")
                 else move.vend_bill_line_order_2
             )
             sort_direction = (
                 move.cus_inv_line_direction
-                if move.type in ("out_invoice", "out_refund")
+                if move.move_type in ("out_invoice", "out_refund")
                 else move.vend_bill_line_direction
             )
 
@@ -279,7 +279,7 @@ class AccountMove(models.Model):
             or "vend_bill_line_direction" in values
         ):
             self.filtered(
-                lambda m: m.type
+                lambda m: m.move_type
                 in ("out_invoice", "out_refund", "in_invoice", "in_refund")
             ).perform_account_move_line_sort()
         return res
@@ -293,7 +293,7 @@ class AccountMoveLine(models.Model):
         lines = super().create(vals_list)
         lines.filtered(
             lambda m: m.move_id
-            and m.move_id.type
+            and m.move_id.move_type
             in ("out_invoice", "out_refund", "in_invoice", "in_refund")
         ).mapped("move_id").perform_account_move_line_sort()
         return lines

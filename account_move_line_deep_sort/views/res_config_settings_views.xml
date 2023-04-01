@@ -17,7 +17,7 @@
                 >
                     <div class="o_setting_left_pane" />
                     <div class="o_setting_right_pane">
-                        <label for="" string='Default Sort Criteria' />
+                        <div class="o_form_label" string='Default Sort Criteria' />
                         <div class="text-muted">
                             Default sort criteria for customer invoice  and credit note
                         </div>
@@ -69,7 +69,7 @@
                 >
                     <div class="o_setting_left_pane" />
                     <div class="o_setting_right_pane">
-                        <label for="" string='Default Sort Criteria' />
+                        <div class="o_form_label" string='Default Sort Criteria' />
                         <div class="text-muted">
                             Default sort criteria for vendor bill and refund bill
                         </div>

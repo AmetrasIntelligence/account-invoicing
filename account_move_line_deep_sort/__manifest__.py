@@ -1,7 +1,7 @@
 {
     "name": """Account Move Line Deep Sort""",
     "summary": """Account Move Line Deep Sort""",
-    "version": "13.0.1.0.0",
+    "version": "16.0.1.0.0",
     "category": "Invoice Management",
     "author": "Ametras intelligence GmbH, Odoo Community Association (OCA) ",
     "website": "https://github.com/OCA/account-invoicing",

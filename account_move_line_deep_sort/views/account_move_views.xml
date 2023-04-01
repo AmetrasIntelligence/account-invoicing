@@ -14,7 +14,7 @@
                 <page
                     name="cus_inv_line_sorting"
                     string="Sorting"
-                    attrs="{'invisible': [('type', 'not in', ('out_invoice', 'out_refund'))]}"
+                    attrs="{'invisible': [('move_type', 'not in', ('out_invoice', 'out_refund'))]}"
                 >
                     <group name="cus_inv_line_sorting">
                         <label for="cus_inv_line_order" />
@@ -42,7 +42,7 @@
                 <page
                     name="vend_bill_line_sorting"
                     string="Sorting"
-                    attrs="{'invisible': [('type', 'not in', ('in_invoice', 'in_refund'))]}"
+                    attrs="{'invisible': [('move_type', 'not in', ('in_invoice', 'in_refund'))]}"
                 >
                     <group name="vend_bill_line_sorting">
                         <label for="vend_bill_line_order" />
