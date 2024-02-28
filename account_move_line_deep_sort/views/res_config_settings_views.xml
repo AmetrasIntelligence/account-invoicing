@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record
+        id="res_config_settings_view_form_inht_account_move_line_deep_sort"
+        model="ir.ui.view"
+    >
+        <field
+            name="name"
+        >res.config.settings.view.form.inht.account.move.line.deep.sort</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="account.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='invoicing_settings']" position="inside">
+                <div
+                    class="col-12 col-lg-6 o_setting_box"
+                    title="Select a default sort criteria for customer invoice and credit note."
+                >
+                    <div class="o_setting_left_pane" />
+                    <div class="o_setting_right_pane">
+                        <h4>Default Sort Criteria</h4>
+                        <div class="text-muted">
+                            Default sort criteria for customer invoice  and credit note
+                        </div>
+                        <div class="content-group">
+                            <div class="row mt16">
+                                <label
+                                    string="Line Order 1"
+                                    for="cus_inv_line_order_default"
+                                    class="col-lg-3 o_light_label"
+                                />
+                                <field
+                                    name="cus_inv_line_order_default"
+                                    options="{'no_create': True}"
+                                />
+                            </div>
+                            <div class="row mt16">
+                                <label
+                                    string="Line Order 2"
+                                    for="cus_inv_line_order_2_default"
+                                    class="col-lg-3 o_light_label"
+                                />
+                                <field
+                                    name="cus_inv_line_order_2_default"
+                                    options="{'no_create': True}"
+                                />
+                            </div>
+                            <div
+                                class="row mt16"
+                                attrs="{'invisible': [('cus_inv_line_order_default', '=', False)]}"
+                            >
+                                <label
+                                    string="Direction"
+                                    for="cus_inv_line_direction_default"
+                                    class="col-lg-3 o_light_label"
+                                />
+                                <field
+                                    name="cus_inv_line_direction_default"
+                                    attrs="{'required': [('cus_inv_line_order_default', '!=', False)]}"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+            <xpath expr="//div[@id='account_vendor_bills']" position="inside">
+                <div
+                    class="col-12 col-lg-6 o_setting_box"
+                    title="Select a default sort criteria for vendor bill and refund bill."
+                >
+                    <div class="o_setting_left_pane" />
+                    <div class="o_setting_right_pane">
+			<h4>Default Sort Criteria</h4>
+                        <div class="text-muted">
+                            Default sort criteria for vendor bill and refund bill
+                        </div>
+                        <div class="content-group">
+                            <div class="row mt16">
+                                <label
+                                    string="Line Order 1"
+                                    for="vend_bill_line_order_default"
+                                    class="col-lg-3 o_light_label"
+                                />
+                                <field
+                                    name="vend_bill_line_order_default"
+                                    options="{'no_create': True}"
+                                />
+                            </div>
+                            <div class="row mt16">
+                                <label
+                                    string="Line Order 2"
+                                    for="vend_bill_line_order_2_default"
+                                    class="col-lg-3 o_light_label"
+                                />
+                                <field
+                                    name="vend_bill_line_order_2_default"
+                                    options="{'no_create': True}"
+                                />
+                            </div>
+                            <div
+                                class="row mt16"
+                                attrs="{'invisible': [('vend_bill_line_order_default', '=', False)]}"
+                            >
+                                <label
+                                    string="Direction"
+                                    for="vend_bill_line_direction_default"
+                                    class="col-lg-3 o_light_label"
+                                />
+                                <field
+                                    name="vend_bill_line_direction_default"
+                                    attrs="{'required': [('vend_bill_line_order_default', '!=', False)]}"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>
